@@ -1,5 +1,5 @@
 {
-  "name": "node-shell",
+  "name": "node-script",
   "version": "1.0.0",
   "description": "TypeScript version of ruby-like language support for scripting",
   "main": "index.js",
