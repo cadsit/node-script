@@ -1,0 +1,25 @@
+{
+  "name": "node-shell",
+  "version": "1.0.0",
+  "description": "TypeScript version of ruby-like language support for scripting",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && node_modules/typescript/bin/tsc",
+    "clean": "rm -rf node_modules dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cadsit/node-shell"
+  },
+  "author": "Connor Adsit",
+  "license": "ISC",
+  "dependencies": {
+    "@types/lodash": "^4.14.36",
+    "@types/node": "^6.0.42",
+    "lodash": "^4.16.3"
+  },
+  "devDependencies": {
+    "typescript": "^2.0.3"
+  }
+}
